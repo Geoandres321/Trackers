@@ -9,11 +9,11 @@ Maximum slope between adjacent tracker tables 15%
 
 Variable inputs will be (assume all measurements are in either feet or degrees):
 
-  -Row Spacing
-  -Module Length
-  -Height of tracker axis of rotation (you can assume center of panel passes through rotational axis for simplicity) for each tracker table
-  -Sun elevation angle (for simplicity assume angle can be from 10-90 degrees)
-  -Only consider morning hours (sun coming from the east)
+Row Spacing
+Module Length
+Height of tracker axis of rotation (you can assume center of panel passes through rotational axis for simplicity) for each tracker table
+Sun elevation angle (for simplicity assume angle can be from 10-90 degrees)
+Only consider morning hours (sun coming from the east)
  
 
 Desired Ouput:
