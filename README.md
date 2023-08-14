@@ -1,5 +1,4 @@
 # Solar Tracker Optimization 🖥
-Description 
 
 ## Introduction 🚀
 
@@ -23,7 +22,7 @@ python app.py
 The script is designed to calculate solar angles, optimize tracker angles, and visualize the results. It leverages the pvlib library for solar position calculations and scipy for optimization.
 
 <div align="center">
-       <img src="images/arquitecture.png?raw=true" width="400px"</img> 
+       <img src="images/arquitecture.png?raw=true" width="200px"</img> 
 </div>
 
 ## Project Layout 🛠️
@@ -41,7 +40,7 @@ The repository is organized as follows:
 The script generates optimized tracker angles over a specified time range and visualizes them alongside solar angles. This visualization provides insights into the performance of the optimized tracker angles.
 
 <div align="center">
-       <img src="images/Diagrama.png?raw=true" width="400px"</img> 
+       <img src="images/Diagrama.png?raw=true" width="800px"</img> 
 </div>
 
 ## Built With 📌
