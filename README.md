@@ -28,9 +28,14 @@ The script is designed to calculate solar angles, optimize tracker angles, and v
 
 ## Project Layout 🛠️
 The repository is organized as follows:
-app.py: The main Python script for solar tracker optimization.
-requirements.txt: List of required Python packages.
-README.md: Project documentation.
+
+```bash
+.
+├── app.py #The main Python script for solar tracker optimization.
+├── requirements.txt #List of required Python packages.
+├── README.md #List of required Python packages.
+├── images # Images project
+```
 
 ## Results 📖
 The script generates optimized tracker angles over a specified time range and visualizes them alongside solar angles. This visualization provides insights into the performance of the optimized tracker angles.
