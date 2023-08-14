@@ -1,22 +1,43 @@
-# Trackers
-Test:
+# Solar Tracker Optimization
 
-Given a set of 3 tracker tables equally spaced at a given row spacing, determine the optimal tracking angle for each tracker table to avoid self-shading. So back tracking that accounts for elevation differences.
-Assumptions:
+## Introduction
 
-Rotation Limit +/- 60 degrees
-Maximum slope between adjacent tracker tables 15%
+This repository contains a Python script that performs solar tracker optimization for a photovoltaic (PV) system. The main goal of this project is to find optimal tracker angles that minimize shadowing and maximize solar exposure, thus enhancing the overall efficiency of the PV system.
 
-Variable inputs will be (assume all measurements are in either feet or degrees):
+## Installation
 
-Row Spacing
-Module Length
-Height of tracker axis of rotation (you can assume center of panel passes through rotational axis for simplicity) for each tracker table
-Sun elevation angle (for simplicity assume angle can be from 10-90 degrees)
-Only consider morning hours (sun coming from the east)
- 
+To run the script, follow these steps:
 
-Desired Ouput:
+1. Clone this repository to your local machine.
+2. Install the required dependencies using the following command:
 
-Tracker Angle for each table
- 
+```bash
+pip install -r requirements.txt
+Run
+Navigate to the cloned repository and run the script using:
+
+bash
+Copy code
+python solar_tracker_optimization.py
+Architecture
+The script is designed to calculate solar angles, optimize tracker angles, and visualize the results. It leverages the pvlib library for solar position calculations and scipy for optimization.
+
+Project Layout
+The repository is organized as follows:
+
+solar_tracker_optimization.py: The main Python script for solar tracker optimization.
+requirements.txt: List of required Python packages.
+README.md: Project documentation.
+Results
+The script generates optimized tracker angles over a specified time range and visualizes them alongside solar angles. This visualization provides insights into the performance of the optimized tracker angles.
+
+Built With
+pvlib - A library for solar energy modeling.
+scipy - A scientific library for optimization.
+Version
+This is version 1.0 of the Solar Tracker Optimization script.
+
+Author
+Your Name
+Acknowledgements
+We would like to express our gratitude to the open-source community for developing and maintaining the pvlib and scipy libraries, which greatly contributed to the success of this project.
